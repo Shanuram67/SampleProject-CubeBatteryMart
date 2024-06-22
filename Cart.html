@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cube Battery|Cart</title>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="shoppingCart.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="shoppingCartbackup.js" defer></script>
+</head>
+
+<body>
+	<header class="main-header">
+		<div class="logo-container">
+			<img src="/images/Screenshot_2024-06-22_082159-removebg-preview.png" alt="Logo" class="logo">
+		<nav class="main-nav nav">
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="Cart.html">CART</a></li>
+				<li><a href="About.html">ABOUT</a></li>
+				<li><a href="Delivery.html">SHIPPING</a></li>
+			</ul>
+		</nav>
+		
+	</header>
+	<!--<li><a href="Delivery.html">SHIPPING</a></li>-->
+	<section class="container content-section">
+		<h2 class="section-header" style="color: #09e709;">Shopping </h2>
+		<div class="cart-row">
+			<span class="cart-item cart-header cart-column" style="color: #09e709;">Selected item </span>
+			<span class="cart-price cart-header cart-column" style="color: #09e709;">Cost</span>
+			<span class="cart-quantity cart-header cart-column" style="color: #09e709;">Count of item </span>
+		</div>
+		<div class="cart-items">
+		</div>
+		<div class="cart-total" style="color: #09e709;">
+			<div style="color: #09e709;">Tax: 12%</div>
+			<br>
+			<strong class="cart-total-title" style="color: #09e709;">Overall</strong>
+			<span id="total" style="color: #09e709;">$560</span>
+		</div>
+		<center><button onclick="goToIndex()">Next</button></center>	
+		<center><button onclick="goToIndex()">BACK</button></center>
+
+	<script>
+		function goToIndex() {
+		  window.location.href = 'index.html';
+		  window.location.href = 'Delivery.html';
+		}
+	  </script>
+	</section>
+
+	<footer class="main-footer">
+		<div class="container main-footer-container">
+		<h3 class="band-name">Vist us </h3>
+		<ul class="nav footer-nav">
+			<li>
+				<a href="https://youtu.be/kFm3RIaGdRo?si=vwSrTawjbXIhkn8F" target="_blank">
+					<img src="images/youtube.png">
+				</a>
+			</li>
+			
+			<li>
+				<a href="https://facebook.com" target="_blank">
+					<img src="images/facebook.png">
+				</a>
+			</li>
+		</ul>
+		</div>
+		<center><p  class="text-center"  style="background-color: black; color: white;">2024 CopyRights by shanmukha </p> </center>
+	</footer>
+</body>
+
+</html>

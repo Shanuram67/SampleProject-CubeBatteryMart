@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Online Store|Discount</title>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="shoppingCart.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="Discount.js" defer></script>
+</head>
+
+<body>
+	<header class="main-header">
+		<nav class="main-nav nav">
+			<div class="logo-container">
+				<img src="/images/Screenshot_2024-06-22_082159-removebg-preview.png" alt="Logo" class="logo">
+			<ul>
+				<li><a href="Landing.html">HOME</a></li>
+				<li><a href="Delivery.html">SHIPPING</a></li>
+				<li><a href="About.html">ABOUT</a></li>
+			</ul>
+		</nav>
+		
+	
+	</header>
+
+	<section class="content-section container">
+		<h2 class="section-header" style="color: #09e766;">Discount Section</h2>
+		<div>
+			<p style="color: #09e766;">Get 68% off your purchase</p>
+			<p style="color: #09e766;"> Please enter discount code below or click next:</p>
+			<br>
+			<label style="color: white;">Discount Code:</label>
+			<input type="text" id="discount">
+			<br>
+			<br>
+			<button onclick="discountCode()" id="enter" class="btn-primary btn2">Enter</button>
+			<br>
+			<br>
+			<div class="cart-total">
+				<strong class="discount-total-title">overall</strong>
+				<span id="discount-total-price">450</span>
+			</div>
+		</div>
+		<br>
+		<center><button onclick="goToIndex()">Next</button></center>	
+		<center><button onclick="goToIndex()">BACK</button></center>
+
+	<script>
+		function goToIndex() {
+		  window.location.href = 'index.html';
+		  window.location.href = 'Delivery.html';
+		}
+	  </script>
+	</section>
+	<br>
+	<footer class="main-footer">
+		<div class="container main-footer-container">
+		<h3 class="band-name">Vist us </h3>
+		<ul class="nav footer-nav">
+			<li>
+				<a href="https://youtu.be/kFm3RIaGdRo?si=vwSrTawjbXIhkn8F" target="_blank">
+					<img src="images/youtube.png">
+				</a>
+			</li>
+			
+			<li>
+				<a href="https://facebook.com" target="_blank">
+					<img src="images/facebook.png">
+				</a>
+			</li>
+		</ul>
+		</div>
+		<center><p  class="text-center"  style="background-color: black; color: white;">2024 CopyRights by shanmukha </p> </center>
+	</footer>
+</body>
+
+</html>

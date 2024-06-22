@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Order confiramtion page </title>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="shoppingCart.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="Confirm.js" defer></script>
+</head>
+
+<body onload="orderNumber()">
+	<header class="main-header">
+		<nav class="main-nav nav">
+			<ul>
+				<li><a href="Landing.html">HOME</a></li>
+				<li><a href="Delivery.html">SHIPPING</a></li>
+				<li><a href="About.html">ABOUT</a></li>
+			</ul>
+		</nav>
+		
+	
+	</header>
+
+	<section class="content-section container">
+		<center>
+		<h2 class="section-header" style="color: #09e766;">Order Confirmation </h2>
+		<br>
+		<h3 style="color: #09e766;">Order placed </h3>
+		<div><span style="color: #09e766;">Your orderid : 3fidn</span>
+		<output id="gen-output">Any Orders?</output> 
+		</div>
+		<br>
+		<p style="color: #09e766;">The order placed ,Now you can add any item or come back next time we will give you exacting offers </p>
+		<br>
+
+		<button class="btn-primary btn2" onclick="window.location.href = 'Landing.html';" onclick="removeallItems()">Finish</button>
+		</center>
+	</section>
+	<center><button onclick="goToIndex()">BACK</button></center>
+	<script>
+		function goToIndex() {
+		  window.location.href = 'index.html';
+		}
+	  </script>
+
+	<footer class="main-footer">
+		<div class="container main-footer-container">
+		<h3 class="band-name">Vist us </h3>
+		<ul class="nav footer-nav">
+			<li>
+				<a href="https://youtu.be/kFm3RIaGdRo?si=vwSrTawjbXIhkn8F" target="_blank">
+					<img src="images/youtube.png">
+				</a>
+			</li>
+			
+			<li>
+				<a href="https://facebook.com" target="_blank">
+					<img src="images/facebook.png">
+				</a>
+			</li>
+		</ul>
+		</div>
+		<center><p  class="text-center"  style="background-color: black; color: white;">2024 CopyRights by shanmukha </p> </center>
+	</footer>
+</body>
+
+</html>
+
+
