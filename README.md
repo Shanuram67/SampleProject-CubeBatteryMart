@@ -1,4 +1,4 @@
-# Online-MART-Javascript-html-css
+# CubeBattery Mart
 Retail website with shopping cart and order number, build using javascript, html and css
 
 <b>Category Menu</b>
